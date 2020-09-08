@@ -1,0 +1,42 @@
+FORMER CHAPTER 8.
+CERTIFICATION PRE-CLEARANCE.
+[Repealed by PL 17-1 § 5(P)]
+§ 4801. Required Clearances; Acceptance Limited. [Repealed by PL 17-1
+§ 5(P)]
+§ 4802. Approved List. [Repealed by PL 17-1 § 5(P)]
+§ 4803. Limited Applicability of Administrative Procedure Act. [Repealed by
+PL 17-1 § 5(P)]
+§ 4801. Required Clearances; Acceptance Limited [Repealed].
+Source: PL 11-97, § 3, modified; repealed and reenacted by PL 15-108, § 4(4801); repealed by PL 17-1 § 5(P) (Mar. 22, 2010).*
+Commission Comment: PL 11-97 took effect on September 14, 1999, but see section 9 of PL 11-97 that provided as follows:
+Section 9. Effective Date. To relieve applicants who on the date this Act becomes law are already in the process of assembling documents for submission to the Department of Labor and Immigration from the burden of having to reobtain, from another source, documents already obtained, and to provide time for the Department of Labor and Immigration to obtain and make readily available to the public a listing of approved agencies and entities, this Act shall take effect 90 days after its approval by the Governor or its becoming law without such approval.
+PL 11-97 contained short title, findings and purpose, severability, and savings clauses as follows:
+Section 1. Short Title. This Act may be cited as the “Certification Preclearance Act of 1999.”
+Section 2. Findings and Purpose. The Legislature finds that the Commonwealth has experienced numerous problems with health clearances and criminal background checks fraudulently obtained in foreign countries to support applications for entry and work permits in the Commonwealth. It is imperative that such clearances be provided only from reputable and reliable sources if the Commonwealth’s interest in protecting the public health and the security of persons and property in the Commonwealth is to be properly served. The Legislature further finds that United States authorities, including the U.S. Department of State and the Immigration and Naturalization Service of the Department of Justice, maintain lists of reputable and reliable agencies and entities in foreign countries that are deemed acceptable by Federal agencies requiring health clearances or criminal background checks. These U.S. certifications provide a good foundation for determining sources Commonwealth immigration and labor authorities can accept with confidence. It is the purpose of this Act to address weaknesses in current practice arising from too liberal acceptance of foreign clearances and strengthen the Commonwealth's system of immigration control by limiting acceptance of health clearances and criminal background checks to those obtained from preapproved agencies and entities identified as provided by this Act.
+…
+Section 7. Severability. If any provision of this Act or the application of any such provision to any person or circumstance should be held invalid by a court of competent jurisdiction, the remainder of this Act or the application of its provisions to persons or circumstances other than those to which it is held invalid shall not be affected thereby.
+Section 8. Savings Clause. This Act and any repealer contained herein shall not be construed as affecting any existing fight acquired under contract or acquired under statutes repealed or under any rule, regulation or order adopted under the statutes. Repealers contained in this Act shall not affect any proceeding instituted under or pursuant to prior law. The enactment of this Act shall not have the effect of terminating, or in any way modifying, any liability, civil or criminal, which shall already be in existence at the date this Act becomes effective.
+See the comment to 3 CMC § 4401 regarding PL 15-108.
+*PL 17-1 (enacted on Mar. 22, 2010) contained the following effective date provision:
+Section 12. Effective date. This Act shall take effect upon its approval by the Governor or becoming law without such approval and shall be retroactive to November 28, 2009 except as otherwise specifically provided herein.
+For more information regarding Public Law 17-1, see comment to 3 CMC § 4511.
+§ 4802. Approved List [Repealed].
+Source: PL 11-97, § 4, modified; repealed and reenacted by PL 15-108, § 4(4802); repealed by PL 17-1 § 5(P) (Mar. 22, 2010).*
+Commission Comment: See the comment to 3 CMC § 4401 regarding PL 15-108.
+*PL 17-1 (enacted on Mar. 22, 2010) contained the following effective date provision:
+Section 12. Effective date. This Act shall take effect upon its approval by the Governor or becoming law without such approval and shall be retroactive to November 28, 2009 except as otherwise specifically provided herein.
+For more information regarding Public Law 17-1, see comment to 3 CMC § 4511.
+§ 4803. Limited Applicability of Administrative Procedure Act
+[Repealed].
+Source: PL 11-97, § 5, modified; repealed and reenacted by PL 15-108, § 4(4803); repealed by PL 17-1 § 5(P). (Mar. 22, 2010).*
+Commission Comment: PL 11-97 took effect on September 14, 1999, but see section 9 of PL 11-97 that provided as follows:
+Section 9. Effective Date. To relieve applicants who on the date this Act becomes law are already in the process of assembling documents for submission to the Department of Labor and Immigration from the burden of having to reobtain, from another source, documents already obtained, and to provide time for the Department of Labor and Immigration to obtain and make readily available to the public a listing of approved agencies and entities, this Act shall take effect 90 days after its approval by the Governor or its becoming law without such approval.
+PL 11-97 contained short title, findings and purpose, severability, and savings clauses as follows:
+Section 1. Short Title. This Act may be cited as the “Certification Preclearance Act of 1999.”
+Section 2. Findings and Purpose. The Legislature finds that the Commonwealth has experienced numerous problems with health clearances and criminal background checks fraudulently obtained in foreign countries to support applications for entry and work permits in the Commonwealth. It is imperative that such clearances be provided only from reputable and reliable sources if the Commonwealth’s interest in protecting the public health and the security of persons and property in the Commonwealth is to be properly served. The Legislature further finds that United States authorities, including the U.S. Department of State and the Immigration and Naturalization Service of the Department of Justice, maintain lists of reputable and reliable agencies and entities in foreign countries that are deemed acceptable by Federal agencies requiring health clearances or criminal background checks. These U.S. certifications provide a good foundation for determining sources Commonwealth immigration and labor authorities can accept with confidence. It is the purpose of this Act to address weaknesses in current practice arising from too liberal acceptance of foreign clearances and strengthen the Commonwealth's system of immigration control by limiting acceptance of health clearances and criminal background checks to those obtained from preapproved agencies and entities identified as provided by this Act.
+…
+Section 7. Severability. If any provision of this Act or the application of any such provision to any person or circumstance should be held invalid by a court of competent jurisdiction, the remainder of this Act or the application of its provisions to persons or circumstances other than those to which it is held invalid shall not be affected thereby.
+Section 8. Savings Clause. This Act and any repealer contained herein shall not be construed as affecting any existing fight acquired under contract or acquired under statutes repealed or under any rule, regulation or order adopted under the statutes. Repealers contained in this Act shall not affect any proceeding instituted under or pursuant to prior law. The enactment of this Act shall not have the effect of terminating, or in any way modifying, any liability, civil or criminal, which shall already be in existence at the date this Act becomes effective.
+See the comment to 3 CMC § 4401 regarding PL 15-108.
+*PL 17-1 (enacted on Mar. 22, 2010) contained the following effective date provision:
+Section 12. Effective date. This Act shall take effect upon its approval by the Governor or becoming law without such approval and shall be retroactive to November 28, 2009 except as otherwise specifically provided herein.
