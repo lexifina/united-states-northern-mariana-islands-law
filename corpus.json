@@ -1,0 +1,46 @@
+{
+  "corpus": "us/northern-mariana-islands/acts",
+  "parent": "us/federal/usc",
+  "name": "Commonwealth Code of the Northern Mariana Islands (as published by the CNMI Law Revision Commission)",
+  "label": "Northern Mariana Islands",
+  "language": "en",
+  "history": "current-only",
+  "history_from": "2013-08-30",
+  "record_to": "2026-10-29",
+  "checked_on": "2026-10-29",
+  "record_note": "The Law Revision Commission publishes only the current text of each section of the Commonwealth Code, one PDF per section, and keeps no dated earlier versions, so each section has one version here, dated by when the Commission made its PDF (the upload time for sections it amended or added, otherwise the PDF's modification date). That is a compilation date, not the day a law took effect. The Source notes naming each public law are kept as text and listed in data/amendments.csv.",
+  "built": "2026-10-29",
+  "baseline_trailer": "Consolidated",
+  "in_force_trailer": "In-force",
+  "dates": {
+    "commit": "the day the Commission made the section's PDF: the upload stamp in the address of an amended or added section, else the PDF modDate, else its creationDate, else the retrieval day",
+    "baseline_trailer": "Consolidated",
+    "other_trailers": [
+      "Date-source"
+    ],
+    "time": "12:00 UTC+10 (Chamorro Standard Time, no daylight saving time)"
+  },
+  "author": {
+    "consolidated": "CNMI Law Revision Commission",
+    "amendment": "none yet",
+    "unexplained": "CNMI Law Revision Commission"
+  },
+  "scope": {
+    "trailer": "Applies",
+    "when_absent": "not extracted; effective dates and savings clauses are in the public laws and, where the Commission kept them, in the Commission Comment under each section",
+    "default_reach": {
+      "rule": "presumption against retroactivity",
+      "meaning": "a statute operates prospectively unless the legislature clearly says otherwise",
+      "authority": "general rule of statutory construction applied by the CNMI courts",
+      "decided_here": false
+    }
+  },
+  "reuse": "Statute text is not copyrightable: under the government edicts doctrine (Georgia v. Public.Resource.Org, Inc., 590 U.S. 255 (2020)) nobody owns works made by legislators or judges in their official capacity, and the Commission is the Legislature's and courts' own agent for the Code (1 CMC §§ 3801-3810). Private repository; see SOURCES.md.",
+  "citation": {
+    "file": "(title-[0-9]+)/.*/([0-9][0-9A-Za-z.]*)\\.md",
+    "cites": "(§§ ?|§ ?|[Ss]ection ){n}([^0-9A-Za-z.]|[.]([^0-9]|$)|$)",
+    "note": "files are <title folder>/<division>/[<part>/]<chapter>/<section>.md; section numbers are unique within a title (1 CMC § 101 is title-01/general-provisions/chapter-01/101.md)."
+  },
+  "has_future_branch": false,
+  "tool": "tools/in_force_on.py"
+}
