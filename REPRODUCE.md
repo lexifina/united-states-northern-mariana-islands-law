@@ -19,7 +19,7 @@ With the retrieved sitemap, node pages and PDFs in place (each PDF matching its 
 ```sh
 # 1. The tree, in the Code's order, from the node pages.
 python tree.py
-# 2. Read each PDF into paragraphs. One process: a pool of workers died on the build machine.
+# 2. Read each PDF into paragraphs, in one process.
 python parse.py
 # 3. Build into a new, empty folder. --today dates the build and is the latest date allowed.
 python build.py ../united-states-northern-mariana-islands-law-build --today 2026-10-29
