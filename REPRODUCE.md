@@ -47,3 +47,9 @@ python tools/in_force_on.py 2026-10-29 "1 CMC 101"
 ```
 
 The letters-and-digits check (`check_words.py` in the build scripts' folder) reads every PDF again with PyMuPDF's plain `page.get_text()`, shares no code with `parse.py`, and compares the letters and digits of each section with those of its file in git. Rebuilding twice from the same files gives the same `git rev-parse HEAD`.
+
+## Source commencement correction set (5 November 2026)
+
+The ledger data/in-force-corrections.json records 48 metadata-only corrections with official PDF URLs, hashes and commencement quotations. Each correction retains its parent's complete tree and carries Kind, In-force, Corrects, Supersedes, Reason, Act-path, Files and In-force-basis. The Source note and the rest of each official PDF were examined for public-law, executive-order and expressly noted wording-change provenance. The selection does not establish historical scope for complex commentary. Unresolved date scope remains held, including 10 CMC § 2933's PL 15-2 global amendment.
+
+The on-date reader and its shipped builder template match the canonical own-builder reader byte for byte after LF normalization (SHA-256 9e1dd29e07a6f99a542b63399ffaeba5355896a7567b6bc3dc65ab376c0a90ca). No published law file or tag is changed. GPT-6 prepared the date metadata and tools; no model wrote legal text or corrected OCR.

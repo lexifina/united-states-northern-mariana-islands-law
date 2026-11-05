@@ -5,10 +5,10 @@
   "label": "Northern Mariana Islands",
   "language": "en",
   "history": "current-only",
-  "history_from": "2013-08-30",
+  "history_from": "1979-01-12",
   "record_to": "2026-10-29",
   "checked_on": "2026-10-29",
-  "record_note": "The Law Revision Commission publishes only the current text of each section of the Commonwealth Code, one PDF per section, and keeps no dated earlier versions, so each section has one version here (except 23 sections whose earlier PDF is still online at its old address: those have that earlier text first and the current text after it), dated by when the Commission made its PDF (the upload time for sections it amended or added, otherwise the PDF's modification date). That is a compilation date, not the day a law took effect. The Source notes naming each public law are kept as text and listed in data/amendments.csv.",
+  "record_note": "The Law Revision Commission publishes only the current text of each section of the Commonwealth Code, one PDF per section, and keeps no dated earlier versions, so each section has one version here (except 23 sections whose earlier PDF is still online at its old address: those have that earlier text first and the current text after it), dated by when the Commission made its PDF (the upload time for sections it amended or added, otherwise the PDF's modification date). That is a compilation date, not the day a law took effect. The Source notes naming each public law are kept as text and listed in data/amendments.csv. A labelled metadata-only correction set records 48 source-supported commencement dates within a conservative subset of simple, unqualified commencement statements. Complex commentary and additional or qualified amendment scope remain held; 3 CMC 4532 executive-order suspensions and 6 CMC 3501 contradictory act-year provenance remain unresolved; 10 CMC § 2933 is not dated to PL 14-41 because its current wording explicitly reflects PL 15-2, § 4. Law text is unchanged. Other sections retain compilation-based dates pending source-supported commencement evidence.",
   "built": "2026-10-29",
   "baseline_trailer": "Consolidated",
   "in_force_trailer": "In-force",
@@ -18,7 +18,8 @@
     "other_trailers": [
       "Date-source"
     ],
-    "time": "12:00 UTC+10 (Chamorro Standard Time, no daylight saving time)"
+    "time": "12:00 UTC+10 (Chamorro Standard Time, no daylight saving time)",
+    "corrections": "Verified commencement dates in data/in-force-corrections.json; appended correction commits at noon Chamorro time on 5 November 2026."
   },
   "author": {
     "consolidated": "CNMI Law Revision Commission",
@@ -42,5 +43,6 @@
     "note": "files are <title folder>/<division>/[<part>/]<chapter>/<section>.md; section numbers are unique within a title (1 CMC § 101 is title-01/general-provisions/chapter-01/101.md)."
   },
   "has_future_branch": false,
-  "tool": "tools/in_force_on.py"
+  "tool": "tools/in_force_on.py",
+  "date_corrections_checked_on": "2026-11-05"
 }

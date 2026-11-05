@@ -6,9 +6,12 @@ has it on a date.
     python tools/in_force_on.py 2026-10-29 title-01/general-provisions/chapter-01         # the whole chapter, in order
     python tools/in_force_on.py 2026-10-29 title-02                                       # every chapter of a title
 
-Reads the `In-force:` trailer, which holds the day the Law Revision Commission made the section's PDF. The
-Commission keeps only the current text, so a date before that day has no version here. Standard library only.
+Reads the original compilation dates and the labelled source-commencement corrections in
+data/in-force-corrections.json. Uncorrected sections retain their compilation-date boundaries.
+The record does not reconstruct other earlier wording. Standard library only.
 """
+import json
+from functools import lru_cache
 import re
 import subprocess
 import sys
@@ -32,6 +35,24 @@ def by_citation(cite: str) -> tuple[str, str] | None:
     return None
 
 
+@lru_cache(maxsize=1)
+def date_corrections() -> dict:
+    try:
+        data = json.loads(git('show', 'main:data/in-force-corrections.json'))
+    except subprocess.CalledProcessError:
+        return {}
+    return {row['file']: row for row in data['entries']}
+
+
+def corrected_commit(day: str, path: str, ordinary: str | None) -> tuple[str, str] | None:
+    row = date_corrections().get(path)
+    if row and row['from'] <= day and (not row['to'] or day <= row['to']):
+        # A later ordinary text version ends this correction's open interval.
+        if ordinary is None or ordinary == row['supersedes']:
+            return row['commit'], row['in_force']
+    return None
+
+
 def commit_on(day: str, path: str) -> tuple[str | None, str | None]:
     """The last commit on or before `day` that touched `path`, and the earliest date known for it."""
     fmt = '%H%x1f%(trailers:key=In-force,valueonly,separator=)'
@@ -43,8 +64,11 @@ def commit_on(day: str, path: str) -> tuple[str | None, str | None]:
             continue
         earliest = d
         if d <= day:
-            return h, d
-    return None, earliest
+            return corrected_commit(day, path, h) or (h, d)
+    row = date_corrections().get(path)
+    if row:
+        earliest = min(earliest or row['from'], row['from'])
+    return corrected_commit(day, path, None) or (None, earliest)
 
 
 def main() -> None:
@@ -70,8 +94,8 @@ def main() -> None:
         h, earliest = commit_on(day, path)
         if not h:
             if earliest:
-                sys.exit(f'{path}: no version on or before {day}; the record starts at {earliest}, the date of the '
-                         'earliest PDF of it the Law Revision Commission has online')
+                sys.exit(f'{path}: no version on or before {day}; the record starts at {earliest}, the '
+                         'first dated text represented here')
             sys.exit(f'{path}: not found')
         sys.stdout.write(git('show', f'{h}:{path}'))
         return
@@ -91,6 +115,11 @@ def main() -> None:
             h = h if d.strip() and d.strip() <= day else None
         elif line and h and line not in latest:
             latest[line] = h
+    for path in date_corrections():
+        if path.startswith(law + '/'):
+            corrected = corrected_commit(day, path, latest.get(path))
+            if corrected:
+                latest[path] = corrected[0]
     shown = 0
     for ix in indexes:
         folder = ix.rsplit('/', 1)[0]
