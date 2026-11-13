@@ -1,5 +1,10 @@
 # The laws of the Northern Mariana Islands, as a git repository
 
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="data/effort-dark.svg">
+<img alt="Northern Mariana Islands law in this repository: what it holds, changes by the year they took effect, completeness against the official sources, and the correctness of what is held" src="data/effort-light.svg" width="880">
+</picture>
+
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the law of Northern Mariana Islands, United States, which global-law reads at `united-states/northern-mariana-islands/acts/`.
 
 The Commonwealth Code of the Northern Mariana Islands as a git repository: all 10 titles, in 540 chapters (and the divisions and parts that hold sections directly). The source is the [Commonwealth Code](https://cnmilaw.gov/commonwealth-code) published by the CNMI Law Revision Commission, the body the Code itself sets up to codify and publish the Commonwealth's laws (1 CMC §§ 3801–3810). There is one file per section (7,156 of them), with one paragraph per line, so `git blame` and `git diff` work line by line.
